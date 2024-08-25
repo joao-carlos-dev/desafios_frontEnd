@@ -1,0 +1,53 @@
+.container {
+    width: 1216px;
+    padding: 80px, 0px, 80px, 0px;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    ul {
+        background-color: #121214;
+    }
+}
+
+.header_card {
+    display: flex;
+
+    h4 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #e07b67;
+    }
+}
+
+.card {
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 40px;
+    margin-top: 88px;
+    background-color: #17171a;
+
+    h1 {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #afabb6;
+        margin-top: 16px;
+    }
+}
+
+.card:hover {
+    border: 2px solid #e07b67;
+    transition: ease 0.3s;
+
+}
